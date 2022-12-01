@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus Rural Trust</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="lotustrustlogo.jpeg">
+</head>
+
+<body>
+    <section class="sub-header-contact">
+        <nav>
+            <a href="index.html"><img src="img/lotustrustlogo.jpeg" alt="University.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="https://rzp.io/l/IXPZ5ceY">Donate</a></li>
+                    <!-- <li class="nav-items"><a href="">Blog</a></li> -->
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <!-- --------contact us -------- -->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d972.0768558285475!2d79.37233!3d12.9521696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad3556edc19719%3A0xaac8b96f618fb7c!2sBOGAR%20ACCUPUNCTURE%20CLINIC!5e0!3m2!1sen!2sin!4v1669877300764!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h4>No.2/84 Road Street,Thalangai Village, <br>Sholinger Tk</h4>
+                        <p>Ranipet District - 632 501 TamilNadu</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h4>+91-94442 40690 / 90038 62756</h4>
+                        <p>Contact number</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h4>lotusruraltrust@gmail.com</h4>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="index.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------footer------- -->
+    <section class="footer">
+        <p>Your contribution make many solutions.</p>
+        <h4>Not all of us can do great things but WE ALL can do small things with great love.</h4>
+        <div class="row">
+            <div class="footer-row">
+                <h4>Our Slogan</h4>
+                <p>We can’t help Everyone, but Everyone<br> can help Someone.</p>
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <a href="https://youtube.com/channel/UCDMsSRLergJC40hiTmqFvwQ" target="_blank"
+                        rel="noreferrer noopener"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-row">
+                <h4>What we do</h4>
+                <p>Education & Literacy Support</p>
+                <p>Healthcare & awareness programmes</p>
+                <p>Food and Cloth distribution among poor.</p>
+                <p>Preservation of Environment</p>
+            </div>
+            <div class="footer-row">
+                <h4>Our Address</h4>
+                <p>Lotus Rural Trust</p>
+                <p>No.2/84 Road Street,Thalangai Village, Sholinger Tk <br>
+                    Ranipet District - 632 501 TamilNadu</p>
+                <p>+91-94442 40690 / 90038 62756</p>
+                <p>lotusruraltrust@gmail.com</p>
+            </div>
+        </div>
+    </section>
+</body>
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
